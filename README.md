@@ -4,10 +4,11 @@
 
 <h1 align="center">Tarification non vie avec Python</h1>
 <p align="center"><b>Assurance habitation · garanties Dégât des eaux et Vol · GLM fréquence × coût moyen · dashboard Streamlit</b><br>
-<i>Master II EURIA · Think SMART, Solve SMARTer.</i></p>
+<i>Master II EURIA · Think SMART, Solve SMARTer.</i><br><br>
+<a href="https://smart-tarif-habitation.streamlit.app/"><b>▶ Ouvrir l'application en ligne : smart-tarif-habitation.streamlit.app</b></a></p>
 
 <p align="center">
-  <a href="#déploiement"><img src="https://img.shields.io/badge/Streamlit-app-D4A017?logo=streamlit&logoColor=white" alt="Streamlit"></a>
+  <a href="https://smart-tarif-habitation.streamlit.app/"><img src="https://img.shields.io/badge/Streamlit-app%20en%20ligne-D4A017?logo=streamlit&logoColor=white" alt="Streamlit"></a>
   <img src="https://img.shields.io/badge/Python-3.12%2B-1E4FBF?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/statsmodels-GLM-062A58" alt="statsmodels">
 </p>
@@ -105,7 +106,9 @@ streamlit run app/streamlit_app.py
 
 ## Déploiement
 
-L'application est prévue pour **Streamlit Community Cloud** (gratuit) :
+L'application est en ligne sur **Streamlit Community Cloud** : **[https://smart-tarif-habitation.streamlit.app/](https://smart-tarif-habitation.streamlit.app/)**.
+
+Pour la redéployer ailleurs :
 
 1. Pousser ce dossier sur un dépôt GitHub.
 2. Sur [share.streamlit.io](https://share.streamlit.io), se connecter avec GitHub puis **Create app**.
