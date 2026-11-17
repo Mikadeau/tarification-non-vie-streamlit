@@ -1,0 +1,6 @@
+# Notebooks et export des graphiques en PNG (en plus de requirements.txt)
+-r requirements.txt
+jupyter
+ipykernel
+nbformat
+kaleido==1.5.1

@@ -1,0 +1,88 @@
+{
+  "seed": 2016,
+  "n_apprentissage": 300000,
+  "n_test": 812095,
+  "freq_nulle": 0.01749848683592977,
+  "freq_observee_apprentissage": 0.01749848683593019,
+  "selection_backward": [
+    "Couverture",
+    "Nbpieces",
+    "Nbpers",
+    "Qualite",
+    "Kassu",
+    "Age2",
+    "Usage",
+    "Local",
+    "DMG",
+    "Zonier_DDE",
+    "Ante_DDE"
+  ],
+  "selection_forward": [
+    "Zonier_DDE",
+    "Nbpieces",
+    "Local",
+    "Qualite",
+    "Ante_DDE",
+    "Kassu",
+    "DMG",
+    "Age2",
+    "Nbpers",
+    "Usage",
+    "Couverture"
+  ],
+  "cm_modele_nul": 1327.3703535309858,
+  "cm_observe_apprentissage": 1327.370353530986,
+  "var_freq_dde": [
+    "Couverture",
+    "Nbpieces",
+    "Nbpers",
+    "Qualite",
+    "Kassu_reg",
+    "Age2",
+    "Usage",
+    "Local",
+    "DMG",
+    "Zonier_DDE",
+    "Ante_DDE"
+  ],
+  "var_cout_dde": [
+    "Nbpieces",
+    "Qualite",
+    "Usage",
+    "Local"
+  ],
+  "pp_dde": {
+    "cout_observe_app": 7344340.166086946,
+    "cout_predit_app": 7337343.7384794075,
+    "cout_observe_test": 19852913.982495993,
+    "cout_predit_test": 19855797.741462328,
+    "pp_annuelle_moyenne_test": 23.18843938724898
+  },
+  "gini": {
+    "Modèle nul": -0.03654328220487679,
+    "3 variables": 0.2352242643815331,
+    "Modèle final": 0.3245766835761561
+  },
+  "vol": {
+    "seuil": 20000.0,
+    "taux_surcharge": 0.017431912188939643
+  },
+  "ex7": {
+    "2021": {
+      "graves_dans_apprentissage": [],
+      "charge_app": 8783454.179644847,
+      "charge_test": 28975998.413071804,
+      "nb_sin_app": 3163.0,
+      "expo_app": 315646.95114155253
+    },
+    "2016": {
+      "graves_dans_apprentissage": [
+        2344
+      ],
+      "charge_app": 10782386.009131256,
+      "charge_test": 26977066.58358539,
+      "nb_sin_app": 3182.0,
+      "expo_app": 316198.7691780822
+    }
+  }
+}
